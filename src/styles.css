@@ -1,0 +1,23 @@
+.myBubbleUI {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  background-color: blueviolet;
+}
+
+.interestBubbleUI {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  background-color: tomato;
+}
+
+.childComponent {
+  width: 100%; /* width expands to fit bubble */
+  height: 100%; /* width expands to fit bubble */
+  border-radius: 50%; /* rounded border forms a circle */
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
